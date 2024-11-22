@@ -2,10 +2,21 @@
 import React from "react";
 
 function App() {
-  var x=React.createElement("p",{id:"my"},"Hallow welcome my home")
+
+  var A="sherin"
+  var a=90
+  var b=89
+  function aa(){
+    return(
+      <p>Welcome every one </p>
+    )
+  }
   return (
-    x
-    
+    <>
+    <p>HI My name {A}</p>
+    <p>Sum of   {a+b} </p>
+    {aa()}
+    </>
   );
 }
 
